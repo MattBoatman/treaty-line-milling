@@ -6,6 +6,7 @@ function Header() {
   return (
     <header className="header">
       <Saw className="saw-logo" />
+      <div className="header-title">TLM</div>
     </header>
   );
 }
