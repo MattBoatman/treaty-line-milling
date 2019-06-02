@@ -1,5 +1,5 @@
 import React from "react";
-
+import Button from "../../components/button";
 import "./homeView.css";
 
 function HomeView() {
@@ -14,6 +14,10 @@ function HomeView() {
         </div>
         <div className="location">
           Treaty Line Milling is located at blah blah
+        </div>
+        <div className="button-wrapper">
+          <Button label="Let's Connect" buttonColor="#C6310B" textColor="#FFEBD8" border="none"/>
+          <Button label="Learn More" />
         </div>
       </div>
     </div>

@@ -28,11 +28,27 @@
   border: 2px solid #C6310B;
   margin: 24px 0;
 }
+.home-view .button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0;
+    width: 50%;
+}
 
 @media only screen
   and (min-width: 320px)
   and (max-width: 480px){
     .home-view .main {
+        width: 80%;
+    }
+    .home-view .button-wrapper {
+        width: 100%;
+    }
+}
+@media only screen
+  and (min-width: 481px)
+  and (max-width: 1150px){
+    .home-view .button-wrapper {
         width: 80%;
     }
 }
