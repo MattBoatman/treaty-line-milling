@@ -30,9 +30,11 @@
 }
 .home-view .button-wrapper {
     display: flex;
-    justify-content: space-between;
     margin: 24px 0;
-    width: 50%;
+}
+
+.home-view .button:last-child{
+    margin-left: 34px;
 }
 
 @media only screen

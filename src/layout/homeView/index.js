@@ -17,7 +17,7 @@ function HomeView() {
         </div>
         <div className="button-wrapper">
           <Button label="Let's Connect" buttonColor="#C6310B" textColor="#FFEBD8" border="none"/>
-          <Button label="Learn More" />
+          <Button label="Learn More"/>
         </div>
       </div>
     </div>
