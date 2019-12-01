@@ -5,13 +5,14 @@
   pointer-events: none;
   fill: #3c2313;
   margin-top: 24px;
-  margin-left: 24px;
 }
 
 .header {
   display: flex;
   align-items: center;
   font-size: calc(10px + 2vmin);
+  width: 80%;
+  margin: auto;
 }
 
 .header-title {
